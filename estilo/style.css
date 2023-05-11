@@ -11,11 +11,13 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 html,body{
     font-family: var(--fonte1);
     min-height: 100vh;
     background-color: darkgray;
+    
 }
 header{
     background-color: black;
@@ -71,8 +73,8 @@ section.imagem > p{
     
 }
 section#img01{
-    background-image: url("../imagens/background001.jpg");
-    background-position: right center;
+    background-image: url(../imagens/background001.jpg);
+    background-position: top center;
     background-size: cover;
     background-attachment: fixed;
 
